@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+.container {
+  background-color: rgb(245, 175, 212);
+  max-width: 500px;
+}
+.base {
+  margin: 10px;
+  border: 1px solid grey;
+  background-color: rgb(191, 215, 240);
+}
+.nome {
+  margin-left: 0px;
+}
+.cpf {
+  margin-left: 84px;
+}
+.rg {
+  margin: 10px 0px 0px 92px;
+}
+.cep {
+  margin: 10px 0px 0px 83px;
+}
+.nacio {
+  margin: 10px 0px 0px 15px;
+}
+.cel {
+  margin: 10px 0px 0px 66px;
+}
+.email {
+  margin: 10px 0px 0px 76px;
+}
+.msg {
+  margin: 0px 0px 0px 125px;
+  height: 100px;
+  width: 158px;
+}
+.buttone {
+  margin: 10px 0px 0px 100px;
+  width: 100px;
+}
+.buttonr {
+  margin: 10px;
+  width: 100px;
+}

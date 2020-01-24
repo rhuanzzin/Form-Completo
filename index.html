@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" typer="text/css" href="styles.css" />
+    <title>Desafio formulario</title>
+    <meta charset="UTF-8" lang="pt-br" />
+  </head>
+
+  <body>
+    <section class="container">
+      <form>
+        <h1 style="text-align: center">Formulário de Cadastro</h1>
+        <br />
+        <span>Nome Completo:</span>
+        <input
+          type="text"
+          class="base nome"
+          name="nome completo"
+          id="nome"
+          placeholder="Digite seu Nome"
+          required=""
+        />
+        <br />
+        <span>CPF:</span>
+        <input
+          type="number"
+          class="base cpf"
+          name="cpf"
+          id="cpf"
+          placeholder="Digite seu CPF"
+          required=""
+        />
+        <br />
+        <span>RG:</span>
+        <input
+          type="number"
+          class="base rg"
+          name="rg"
+          id="rg"
+          placeholder="Digite seu RG"
+          required=""
+        />
+        <br />
+        <span>Sexo:</span>
+        <br />
+        <span>Masculino</span>
+        <input type="radio" class="" name="sexo" id="Masculino" />
+        <span>Feminino</span>
+        <input type="radio" class="" name="sexo" id="Feminino" />
+        <span>Outro</span>
+        <input type="radio" class="" name="sexo" id="Outro" />
+        <br />
+        <span>CEP:</span>
+        <input
+          type="number"
+          class="base cep"
+          name="cep"
+          id="cep"
+          placeholder="Digite seu CEP"
+          required=""
+        />
+        <br />
+        <span>Nacionalidade:</span>
+        <input
+          type="text"
+          class="base nacio"
+          name="Nacionalidade"
+          id="Nacionalidade"
+          placeholder="Digite sua Nacionalidade"
+        />
+        <br />
+        <span>Celular:</span>
+        <input
+          type="tel"
+          class="base cel"
+          name="Celular"
+          id="Celular"
+          placeholder="Digite seu Celular"
+          required=""
+        />
+        <br />
+        <span>Email:</span>
+        <input
+          type="email"
+          class="base email"
+          name="email"
+          id="email"
+          placeholder="Digite seu Email"
+          required="@"
+        />
+        <br />
+        <span>Mensagem:</span>
+        <br />
+        <textarea
+          class="base msg"
+          name="mensagem"
+          id="mensagem"
+          placeholder="Digite uma Mensagem"
+        ></textarea>
+        <br />
+        <input type="submit" class="buttone" value="enviar" />
+        <input type="reset" class="buttonr" value="reset" />
+      </form>
+    </section>
+  </body>
+</html>
